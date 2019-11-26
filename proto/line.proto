@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "com.toasttab.receipts";
+option java_outer_classname = "LineProtos";
+
+message Line {
+    string content = 1;
+}

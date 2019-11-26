@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "line.proto";
+option java_package = "com.toasttab.receipts";
+option java_outer_classname = "ReceiptProtos";
+
+message Receipt {
+    Line header = 1;
+    Line content = 2;
+    Line footer = 3;
+}
